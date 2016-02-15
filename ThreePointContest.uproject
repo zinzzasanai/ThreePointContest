@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{BB05E639-4222-A9D7-D362-C4AF68D9FB19}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ThreePointContest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
