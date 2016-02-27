@@ -4,6 +4,7 @@
 #include "ThreePointContestGameMode.h"
 
 #include "Private/FrontEndPlayerController.h"
+
 AThreePointContestGameMode::AThreePointContestGameMode()
 {
 	PlayerControllerClass = AFrontEndPlayerController::StaticClass();
