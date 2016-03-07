@@ -7,19 +7,21 @@
 
 AThreePointContestGameMode::AThreePointContestGameMode()
 {
+/*
 	PlayerControllerClass = AFrontEndPlayerController::StaticClass();
-	static ConstructorHelpers::FObjectFinder<UClass> mainUIWidgetFinder(TEXT("WidgetBlueprint'/Game/UI/MainMenuWidget.MainMenuWidget_C'"));
+	static ConstructorHelpers::FObjectFinder<UClass> mainUIWidgetFinder(TEXT("WidgetBlueprint'/Game/UI/Lobby/Lobby.Lobby_C'"));
 	if (mainUIWidgetFinder.Succeeded())
 	{
 		_startingWidgetClass = mainUIWidgetFinder.Object;
 	}
+	*/
 }
 
 void AThreePointContestGameMode::BeginPlay()
 {
 	Super::BeginPlay();
 
-	ChangeMenuWidget( _startingWidgetClass );
+//	ChangeMenuWidget( _startingWidgetClass );
 }
 
 void AThreePointContestGameMode::ChangeMenuWidget( TSubclassOf<UUserWidget> newWidgetClass )
